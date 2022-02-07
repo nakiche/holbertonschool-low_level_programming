@@ -10,30 +10,9 @@
 
 int main(void)
 {
-	int a;
-	int c;
-	int b;
-	int c2;
-	int d;
-	int e;
-	int f;
-	int g;
-	int h;
-	int i;
-	int j;
+	int a = 0, c = 0, c2 = 0, b = 48, d = 49, e = 50, f = 51, g = 52, h = 53, i = 54, j = 55;
 
-	c = 0;
-	c2 = 0;
-	b = 48;
-	d = 49;
-	e = 50;
-	f = 51;
-	g = 52;
-	h = 53;
-	i = 54;
-	j = 55;
-
-	for (a = 48; a < 58; a++)
+	for (a = 48 ; a < 58; a++)
 	{
 		if (c < 9)
 		{
@@ -90,9 +69,7 @@ int main(void)
 			a--;
 		}
 		if (a < 57)
-		{
 			putchar(a);
-		}
 		if (c2 < 9)
 		{
 			b++;
@@ -145,9 +122,7 @@ int main(void)
 			b = 57;
 		}
 		if (c2 <= 44 && a < 57)
-		{
 			putchar (b);
-		}
 		if (a < 56)
 		{
 			putchar(44);
