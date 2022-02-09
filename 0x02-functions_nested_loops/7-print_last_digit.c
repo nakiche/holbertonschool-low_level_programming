@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <bits/stdc++.h>
+
 /**
  * print_last_digit - This is a description
  *@c: Description of parameter c
