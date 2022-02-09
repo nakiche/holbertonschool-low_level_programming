@@ -22,7 +22,11 @@ int print_last_digit(int c)
 		c = c * -1;
 	}
 	a = ((c % 10) + 48);
+	if (a < 0)
+		a = a * -1;
 	_putchar (a);
 	d = c % 10;
+	if (d < 0)
+		d = d * -1;
 	return (d);
 }
