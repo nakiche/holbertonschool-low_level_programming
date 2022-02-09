@@ -18,9 +18,9 @@ int print_last_digit(int c)
 	if (c < 0)
 	{
 		c = c * -1;
-		d = c % 10;
 	}
 	a = ((c % 10) + 48);
 	_putchar (a);
+	d = c % 10;
 	return (d);
 }
