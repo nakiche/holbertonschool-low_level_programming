@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <ctype.h>
 /**
  * print_last_digit - This is a description
  *@c: Description of parameter c
@@ -13,9 +12,11 @@
 
 int print_last_digit(int c)
 {
-	
+	int a;
 
-	c= c % 10;
-	_putchar (c);
-	return (c);
+	if (c < 0)
+		c = c * -1;
+	a = ((c % 10) + 48);
+	_putchar (a);
+	return (0);
 }
